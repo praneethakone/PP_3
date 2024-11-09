@@ -17,8 +17,9 @@ public class ArraySortedList<E> implements ListInterface<E>, Iterable<E>{
 
     }
 
-    
-    
+    public String arraytoString(int[] list) {
+    return Arrays.toString(list);
+}
 
     @Override
     public boolean remove(E element) {
